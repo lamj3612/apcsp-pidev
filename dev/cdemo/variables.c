@@ -15,5 +15,5 @@ int main()
   tmp = a;
   a = c;
   c = tmp;
-  printf("a is %d and c is %d\n", a, c);
+  printf("c is %d and a is %d\n", a, c);
 }
