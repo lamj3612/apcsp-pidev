@@ -11,9 +11,9 @@ int main()
 
 
   // print value and size of an int variable
-  printf("int has a size of %d bytes\n", a, sizeof(a));
-  printf("char has a size of %c bytes\n", b, sizeof(b));
-  printf("float has a size of %f bytes\n", c, sizeof(c));
-  printf("double has a size of %f bytes\n", d, sizeof(d));
+  printf("Var a has a size of %d bytes\n", sizeof(a));
+  printf("Var b has a size of %d bytes\n", sizeof(b));
+  printf("Var c  has a size of %d bytes\n", sizeof(c));
+  printf("Var d  has a size of %d bytes\n", sizeof(d));
 }
 
